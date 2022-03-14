@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login e <br> Entre para nosso time</h1>
+            <img class="img" src="imagens/code-typing-animate.svg" alt="banner">
+        </div>
+
+        <div class="rigth-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div class="text-field">
+                    <label for="usuario">Usuario</label>
+                    <input id="usuario" type="text" name="usuario" placeholder="usuario">
+                </div>
+
+                <div class="text-field">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" name="password" placeholder="senha">
+                </div>
+                <div class="erro"></div> <br>
+                <button class="btn-login" type="submit" id="button" onclick="validar()">Login</button>
+                <p>Não possui conta? <a class="recupera-senha" href="">Cadastre-se</a></p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
